@@ -1,0 +1,9 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "nome": "Lucas",
+      "mensagem": "Seja bem vindo ao meu blog pessoal!"
+    }
+  ]
+}
