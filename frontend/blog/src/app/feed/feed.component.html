@@ -8,15 +8,15 @@
                 <div class="card-body">
                   <h5 class="card-title text-center">Lucas Castro</h5>
                   <p class="card-text text-center">Desenvolvedor Fullstack</p>
-                  <a href="https://github.com/" target="_blank"
+                  <a href="https://github.com/LucasCastro94" target="_blank"
                     class="btn btn-outline-dark d-flex justify-content-center">Github</a>
         
                   <hr class="mt-4 mb-4">
         
                   <h6 class="mb-3 text-monospace text-center">Pesquisar por nome</h6>
         
-                  <input type="text" class="form-control mb-3 w-100">
-                  <button class="btn btn-outline-warning w-100">Pesquisar</button>
+                  <input type="text" class="form-control mb-3 w-100" [(ngModel)]="nome">
+                  <button class="btn btn-outline-warning w-100" (click)="findByName()">Pesquisar</button>
                 </div>
               </div>
 
